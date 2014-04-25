@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/policyScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#444444"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical"
+    	android:paddingLeft="15dp"
+    	android:paddingRight="15dp" >
+    	
+        <TextView
+	        android:id="@+id/privacyHeading0"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/privacyheading0"
+	        android:textAppearance="?android:attr/textAppearanceMedium"
+	        android:textColor="#FFFFFF" />
+    	
+    	<TextView
+	        android:id="@+id/privacyPara1"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/privacypara1"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textColor="#ffffff"
+	        android:textColorHint="#FFFFFF" />
+	
+	    <TextView
+	        android:id="@+id/privacyHeading1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/privacyheading1"
+	        android:textAppearance="?android:attr/textAppearanceMedium"
+	        android:textColor="#FFFFFF" />
+	
+	    <TextView
+	        android:id="@+id/privacyPara2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/privacypara2"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textColor="#FFFFFF" />
+	
+	    <TextView
+	        android:id="@+id/privacyPara3"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/privacypara3"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textColor="#FFFFFF" />
+
+	    <TextView
+	        android:id="@+id/privacyHeading2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/privacyheading2"
+	        android:textAppearance="?android:attr/textAppearanceMedium"
+	        android:textColor="#FFFFFF" />
+	    
+	    <TextView
+	        android:id="@+id/privacyPara4"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/privacypara4"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textColor="#FFFFFF" />
+	    
+	    <TextView
+	        android:id="@+id/privacyPara5"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/privacypara5"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textColor="#FFFFFF" />
+	    
+	    <TextView
+	        android:id="@+id/privacyHeading3"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/privacyheading3"
+	        android:textAppearance="?android:attr/textAppearanceMedium"
+	        android:textColor="#FFFFFF" />
+	    
+	    <TextView
+	        android:id="@+id/privacyPara6"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/privacypara6"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textColor="#FFFFFF" />
+	    
+	    <TextView
+	        android:id="@+id/privacyPara7"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/privacypara7"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textColor="#FFFFFF" />
+	    
+	    <TextView
+	        android:id="@+id/privacyPara8"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/privacypara8"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textColor="#FFFFFF" />
+	    
+	    <TextView
+	        android:id="@+id/privacyPara9"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/privacypara9"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textColor="#FFFFFF" />
+
+	    <TextView
+	        android:id="@+id/privacyPara10"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/privacypara10"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textColor="#FFFFFF" />
+	    
+	    <TextView
+	        android:id="@+id/privacyPara11"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/privacypara11"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textColor="#FFFFFF" />
+	    
+	    <TextView
+	        android:id="@+id/privacyPara12"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/privacypara12"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textColor="#FFFFFF" />
+	    
+	    <TextView
+	        android:id="@+id/privacyHeading4"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/privacyheading4"
+	        android:textAppearance="?android:attr/textAppearanceMedium"
+	        android:textColor="#FFFFFF" />
+	    
+	    <TextView
+	        android:id="@+id/privacyPara13"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/privacypara13"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textColor="#FFFFFF" />
+	    
+	    <TextView
+	        android:id="@+id/privacyHeading5"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/privacyheading5"
+	        android:textAppearance="?android:attr/textAppearanceMedium"
+	        android:textColor="#FFFFFF" />
+	    
+	    <TextView
+	        android:id="@+id/privacyPara14"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/privacypara14"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textColor="#FFFFFF" />
+	    
+	    <TextView
+	        android:id="@+id/privacyPara15"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/privacypara15"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textColor="#FFFFFF" />
+	    
+	    <TextView
+	        android:id="@+id/privacyHeading6"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/privacyheading6"
+	        android:textAppearance="?android:attr/textAppearanceMedium"
+	        android:textColor="#FFFFFF" />
+	    
+	    <TextView
+	        android:id="@+id/privacyPara16"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/privacypara16"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textColor="#FFFFFF" />
+	    
+	    <TextView
+	        android:id="@+id/privacyHeading7"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/privacyheading7"
+	        android:textAppearance="?android:attr/textAppearanceMedium"
+	        android:textColor="#FFFFFF" />
+	    
+	    <TextView
+	        android:id="@+id/privacyPara17"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/privacypara17"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textColor="#FFFFFF" />
+	    
+	    <TextView
+	        android:id="@+id/privacyHeading8"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/privacyheading8"
+	        android:textAppearance="?android:attr/textAppearanceMedium"
+	        android:textColor="#FFFFFF" />
+	    
+	    <TextView
+	        android:id="@+id/privacyPara18"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/privacypara18"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textColor="#FFFFFF" />
+	    
+	    <TextView
+	        android:id="@+id/privacyHeading9"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/privacyheading9"
+	        android:textAppearance="?android:attr/textAppearanceMedium"
+	        android:textColor="#FFFFFF" />
+	    
+	    <TextView
+	        android:id="@+id/privacyPara19"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/privacypara19"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textColor="#FFFFFF" />
+	    
+	    
+	    
+	    
+    </LinearLayout>
+</ScrollView>

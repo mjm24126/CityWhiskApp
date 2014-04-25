@@ -1,0 +1,82 @@
+<tours>
+ <tour>
+    <name>Susan B. Anthony House</name>
+    <saving>false</saving>
+    <tourId>1</tourId>
+	<catagory>Historic Sites </catagory>
+    <address>17 Madison Street, Rochester, NY 14608 </address>
+    <description>The National Susan B. Anthony Museum &amp; House shares the story of Susan B. Anthony’s lifelong struggle to gain voting rights for women and equal rights for all. We keep her vision alive and relevant by preserving and sharing Anthony’s National Historic Landmark home; collecting artifacts and research materials directly related to her life and work; and making these resources available to the public through tours, publications, the internet, and interpretive programs.</description>
+    <price>10</price>
+    <rating>4.5</rating>
+    <time>3</time>
+    <image></image>
+    <link>http://susanbanthonyhouse.org/index.php</link>
+	<phone>585-235-6124</phone>
+    <latitude>43.153254</latitude>
+	<longitude>-77.628059</longitude>
+  </tour>
+  <tour>
+    <name>National Museum of Play</name>
+    <saving>false</saving>
+    <tourId>2</tourId>
+	<catagory>Museums</catagory>
+    <address>1 Manhattan Square, Rochester, NY 14607</address>
+    <description>The National Museum of Play® is the only collections-based museum in the world devoted solely to play! The National Museum of Play is an exciting, hands-on, welcoming place to play, learn, and dream; a place to pretend, wonder, and explore; a place to discover the past and imagine the future; and a place to rekindle memories and make new ones.</description>
+    <price>10</price>
+    <rating>4.5</rating>
+    <time>3</time>
+    <image></image>
+    <link>museumofplay.org</link>
+	<phone>(585) 263-2700</phone>
+    <latitude>43.153306</latitude>
+	<longitude>-77.601079</longitude>
+  </tour>
+  <tour>
+    <name>Watkins Glenn</name>
+    <saving>false</saving>
+    <tourId>3</tourId>
+	<catagory>Park, Hike</catagory>
+    <address> Route 14, Watkins Glen, NY 14891</address>
+    <description>Watkins Glen State Park is the most famous of the Finger Lakes State Parks, with a reputation for leaving visitors spellbound. Within two miles, the glen's stream descends 400 feet past 200-foot cliffs, generating 19 waterfalls along its course. The gorge path winds over and under waterfalls and through the spray of Cavern Cascade. Rim trails overlook the gorge. Campers and day-visitors can enjoy the Olympic-size pool, scheduled summer tours through the gorge, tent and trailer campsites, picnic facilities and excellent fishing in nearby Seneca Lake or Catherine Creek, which is renowned for its annual spring run of rainbow trout. </description>
+    <price>0</price>
+    <rating>4</rating>
+    <time>4</time>
+    <image></image>
+    <link>http://nysparks.com/parks/142/details.aspx</link>
+	<phone>(607) 535-4511</phone>
+    <latitude>42.396219</latitude>
+	<longitude>-76.887566</longitude>
+  </tour>
+  <tour>
+    <name>Rochester Public Market</name>
+    <saving>false</saving>
+    <tourId>4</tourId>
+	<catagory>Food Market</catagory>
+    <address>280 Union St N, Rochester, NY 14609</address>
+    <description>Part of the City's Department of Recreation and Youth Services, Rochester's Public Market has served the community since 1905. Bargains abound Tuesday, Thursday and Saturday, 52 weeks a year. Local vendors offer their fresh produce, ethnic delicacies, specialty items, and so much more. In addition, an array of independent local businesses are anchored on Market grounds and in the surrounding Market District.</description>
+    <price>5</price>
+    <rating>4.5</rating>
+    <time>1</time>
+    <image></image>
+    <link>CityofRochester.gov/publicmarket</link>
+	<phone>(585) 428-6907</phone>
+    <latitude>43.165702</latitude>
+	<longitude>-77.590157</longitude>
+  </tour>
+  <tour>
+    <name>Dinosaur Bar-B-Que</name>
+    <saving>false</saving>
+    <tourId>5</tourId>
+	<catagory>Barbeque, Music Venues</catagory>
+    <address>99 Court St, Rochester, NY 14604</address>
+    <description>Overlooking the picturesque Genesee River, Dinosaur BBQ Rochester is located in what was the Lehigh Valley Railroad Station built in 1905 in the heart of Downtown Rochester.</description>
+    <price>15</price>
+    <rating>4.5</rating>
+    <time>2</time>
+    <image></image>
+    <link>dinosaurbarbque.com</link>
+	<phone>(585) 325-7090</phone>
+    <latitude>43.153371</latitude>
+	<longitude>-77.608452</longitude>
+  </tour>
+</tours>

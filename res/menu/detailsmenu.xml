@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!--item
+        android:id="@+id/menu_item_share"
+        android:showAsAction="always"
+        android:title="@string/share"
+        android:actionProviderClass="android.widget.ShareActionProvider" /-->
+    <!--  item android:id="@+id/actionbarfirst"
+        android:title="@string/timeAction"
+        android:icon="@drawable/clock"
+        android:orderInCategory="1"
+        android:showAsAction="always"/-->
+        
+    <!--item android:id="@+id/actionbar1"
+        android:title="@string/viewToogle"
+        android:orderInCategory="2"
+        android:showAsAction="always"/-->
+    
+    <!-- item android:id="@+id/actionbar2"
+        android:title="@string/myProfile"
+        android:orderInCategory="3"
+        android:showAsAction="collapseActionView"/-->
+   
+    <!-- item android:id="@+id/actionbar3"
+        android:title="@string/sharing"
+        android:orderInCategory="4"
+        android:showAsAction="collapseActionView"/-->
+    
+     <!-- item android:id="@+id/actionbar4"
+        android:title="@string/syncing"
+        android:orderInCategory="5"
+        android:showAsAction="collapseActionView"/-->
+    
+    <!--item android:id="@+id/actionbar6"
+        android:title="@string/settings"
+        android:orderInCategory="7"
+        android:showAsAction="collapseActionView"/-->
+   
+    <!--item android:id="@+id/actionbar7"
+        android:title="@string/howItWorks"
+        android:orderInCategory="8"
+        android:showAsAction="collapseActionView"/-->
+    
+    <item android:id="@+id/actionbar8"
+        android:title="@string/privacy"
+        android:orderInCategory="9"
+        android:showAsAction="collapseActionView"/>
+</menu>

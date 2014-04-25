@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/detailLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#101010"
+    android:orientation="vertical" >
+    
+    <RelativeLayout
+            android:id="@+id/detailImageContainer"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_alignParentTop="true">
+
+        <ImageView
+            android:id="@+id/detailImage"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:adjustViewBounds="false"
+            android:alpha=".8"
+            android:contentDescription="@string/app_name"
+            android:padding="0dp"/>
+
+        <TextView
+            android:id="@+id/detailName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/leftArrow"
+            android:layout_alignParentTop="true"
+            android:paddingTop="1dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="0dp"
+            android:textColor="#ffffff"
+            android:maxLines="2"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+        
+        <TextView
+            android:id="@+id/activityText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/detailName"
+            android:layout_above="@+id/ratingText"
+            android:layout_toRightOf="@+id/leftArrow"
+            android:gravity="center"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true" 
+            android:paddingLeft="10dp"
+            android:paddingRight="50dp"
+            android:paddingBottom="1sp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ffffff"
+            android:textStyle="italic" />
+        
+        <TextView
+            android:id="@+id/ratingText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/ratingBar"
+            android:layout_toRightOf="@+id/leftArrow"
+            android:layout_alignParentBottom="true"
+            android:paddingLeft="10dp"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textStyle="italic"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+        <ImageView
+            android:id="@+id/leftArrow"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/imgarrow_left_white" />
+        
+        <ImageView
+            android:id="@+id/rightArrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/imgarrow_right_white" />
+        
+       	<RatingBar
+       	    android:id="@+id/ratingBar"
+       	    android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/ratingText"
+            android:layout_alignParentBottom="true"
+            android:alpha="1"
+            android:isIndicator="true"
+            android:numStars="5"
+            android:progressDrawable="@drawable/custom_ratingbar_selector"
+            android:scaleX=".8"
+            android:scaleY=".8"
+            android:translationY="11dp"
+            android:translationX="5dp"
+            android:stepSize=".1" />
+       	
+    </RelativeLayout>
+    
+    <LinearLayout
+        android:id="@+id/iconRow"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_below="@+id/detailImageContainer" >
+
+        <ImageView
+            android:id="@+id/detailLocationImages"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/navigateicon" />
+
+        <ImageView
+            android:id="@+id/detailPhoneImage"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/phoneicon" />
+        
+        <ImageView
+            android:id="@+id/detailPlusImage"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/medium"
+            android:visibility="gone" />    
+    </LinearLayout>
+    
+    <View
+        android:id="@+id/rowbreak"
+        android:background="#ffffff" 
+        android:layout_width="fill_parent" 
+        android:layout_height="1dip" 
+        android:layout_centerVertical="true" 
+        android:layout_below="@+id/iconRow"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"/>
+
+    <!-- RelativeLayout
+        android:id="@+id/locationRow"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"  >
+    	
+        <TextView
+	        android:id="@+id/detailDirection"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignBottom="@+id/detailLocationImage"
+	        android:layout_alignParentRight="true"
+	        android:layout_alignTop="@+id/detailLocationImage"
+	        android:layout_toRightOf="@+id/detailLocationImage"
+	        android:gravity="center_vertical"
+	        android:paddingLeft="5dp"
+	        android:textColor="#ffffff" />
+    </RelativeLayout-->
+    
+    <!-- RelativeLayout
+        android:id="@+id/promotionRow"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1" >
+        
+        <TextView
+	        android:id="@+id/promotion"
+	        android:layout_width="wrap_content"
+	        android:layout_height="25dp"
+	        android:layout_alignParentRight="true"
+	        android:layout_toRightOf="@+id/detailSaleImage"
+	        android:paddingLeft="6dp"
+	        android:textColor="#ffffff" />
+
+	    <ImageView
+	        android:id="@+id/detailSaleImage"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:contentDescription="@string/app_name"
+	        android:paddingLeft="5dp"
+	        android:paddingRight="5dp"
+	        android:src="@drawable/salestag_green" />
+        
+    </RelativeLayout-->
+    
+    <ExpandableListView
+        android:id="@+id/detailListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#101010"
+        android:layout_below="@+id/rowbreak"
+        android:groupIndicator="@android:color/transparent">
+
+    </ExpandableListView>
+
+</RelativeLayout>

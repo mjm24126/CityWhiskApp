@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/listgradient_plain">
+    
+    <TextView
+        android:id="@+id/listViewRow"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/savingImage"
+        android:layout_toRightOf="@+id/number"
+        android:gravity="center_vertical"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="?android:attr/textColorPrimaryInverse"
+        android:textSize="18sp" />
+
+    <!--  CheckBox
+        android:id="@+id/entityHold"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_marginLeft="8dp"
+        android:button="@drawable/modifycheckbox"
+        android:gravity="center"
+        android:paddingLeft="5dp"
+        android:paddingTop="25dp" /-->
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="35dp"
+        android:layout_height="55dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="?android:attr/textColorPrimaryInverse" />
+
+    <ImageView
+        android:id="@+id/savingImage"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@+id/number"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/app_name"
+        android:padding="5dp"
+        android:scaleX="1.1"
+        android:scaleY="1.1"
+        android:src="@drawable/toggle" />
+
+    <TextView
+        android:id="@+id/distance"
+        android:layout_width="95dp"
+        android:layout_height="25dp"
+        android:maxLines="1"
+        android:layout_alignBottom="@+id/number"
+        android:layout_alignLeft="@+id/listViewRow"
+        android:layout_alignRight="@+id/listViewRow"
+        android:textColor="?android:attr/textColorSecondaryInverse"
+        android:textSize="14sp" />
+
+</RelativeLayout>

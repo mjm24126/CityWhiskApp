@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CityWhisk</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="search_tab">SEARCH</string>
+    <string name="home_tab">HOME</string>
+    <string name="save_tab">SAVED</string>
+    <string name="pref_tab">PREF</string>
+    <string name="budgetBar">Budget</string>
+    <string name="distanceBar">Distance</string>
+    <string name="ratingBar">Rating</string>
+    <string name="timeBar">Time</string>
+    <string name="applyPrefs">APPLY CHANGES</string>
+    <string name="advancedPrefs">Advanced Preferences</string>
+    <string name="swipeLeft">swipeLeft</string>
+    <string name="swipeRight">swipeRight</string>
+	<string name="mapLeftArrow">&lt;</string>
+	<string name="mapRightArrow">&gt;</string>
+	<string name="delete">Delete</string>
+	<string name="address">Address</string>
+	<string name="useCurrentLocation">Use Current Location</string>
+	<string name="reroute">End at starting location</string>
+	<string name="useCustomAddress">Use Custom Address</string>
+	<string name="timeAction">Time</string>
+	<string name="viewToogle">View</string>
+	<string name="myProfile">My Profile</string>
+	<string name="sharing">Sharing</string>
+	<string name="syncing">Syncing</string>
+	<string name="saveItinerary">Save this itinerary</string>
+	<string name="settings">Settings</string>
+	<string name="howItWorks">How it works</string>
+	<string name="privacy">Privacy and Terms</string>
+	<string name="nameItin">Name this Itinerary</string>
+	<string name="itineraryname">Itinerary Name</string>
+	<string name="save">Save</string>
+	<string name="cancel">Cancel</string>
+	<string name="generating">Generating Itinerary...</string>
+	<string name="privacypara1">
+	    We want to earn your trust by being transparent about how CityWhisk works. You should read this 
+		policy in its entirety. You decide how much information you feel comfortable sharing on CityWhisk 
+		and you control how it is distributed through your privacy settings. You should review the default 
+		privacy settings and change them if necessary to reflect your preferences. You should also consider 
+		your settings whenever you share information.
+	</string>
+	<string name="privacypara2">
+	    In the course of using this Site, you may provide us with personally identifiable information. This 
+	    refers to information about you that can be used to contact or identify you, and information on your 
+	    use of and activities at our Site that may be connected with you (“Personal Information”). Personal 
+	    Information that we collect may include, but is not limited to, your name, phone number, billing 
+	    information, email address and home and business postal addresses. Personal Information may also include 
+	    information you supply to us concerning your preferences and interests expressed in the course of use of 
+	    our Site.
+	</string>
+	<string name="privacypara3">
+	    One of the values of CityWhisk is in understanding the trends and behaviors or our Users. Location-based 
+	    services, site activity information, access to devices and browser information, and cookie information may 
+	    be collected in order to create a more personalized experience.
+	</string>
+	<string name="privacyheading1">
+	    Information we collect
+	</string>
+	<string name="addToFav">SAVE ITINERARY</string>
+	<string name="favMessage">Unsaved itinerary data will be lost</string>
+	<string name="no">No</string>
+	<string name="yes">Yes</string>
+	<string name="addToItin">Add to Itinerary</string>
+	<string name="viewDetails">View Details</string>
+	<string name="share">Share</string>
+	<string name="privacyheading2">How We Use Your Information</string>
+	<string name="privacypara19">CityWhisk, LTD is very concerned with safeguarding your information. We employ reasonable measures designed to protect your information from unauthorized access. No method of transmission over the Internet or via mobile device, or method of electronic storage, is 100% secure. Therefore, while we strive to use commercially acceptable means to protect your personal information, we cannot guarantee its absolute security.</string>
+	<string name="privacyheading9">Security</string>
+	<string name="privacypara18">We may revise this Privacy Policy from time to time. The most current version of the Privacy Policy will govern our use of information about you. If we make material changes to this Privacy Policy, we will notify you by email or by posting a notice on the Site prior to the effective date of the changes. By continuing to access or use the Site after those changes become effective, you agree to be bound by the revised Privacy Policy.</string>
+	<string name="privacyheading8">Modifications</string>
+	<string name="privacypara17">Our Services are not directed to persons under 13. If you become aware that your child has provided us with personal information without your consent, please contact us. We do not knowingly collect personal information from children under 13. If we become aware that a child under 13 has provided us with personal information, we take steps to remove such information and terminate the child\'s account.</string>
+	<string name="privacyheading7">Children’s Privacy</string>
+	<string name="privacypara16">You can close your account at any time. We will remove your public posts from view and/or dissociate them from your account profile, but we may retain information about you for the purposes authorized under this Privacy Policy unless prohibited by law. For example, we may retain information to prevent, investigate, or identify possible wrongdoing in connection with the Site or to comply with legal obligations. Please note that businesses cannot remove their business listings, ratings or reviews by closing their accounts.</string>
+	<string name="privacyheading6">Account Termination</string>
+	<string name="privacypara15">Where we can provide information access and correction, we will do so for free, except where it would require a disproportionate effort. We aim to maintain our services in a manner that protects information from accidental or malicious destruction. Because of this, after you delete information from our services, we may not immediately delete residual copies from our active servers and may not remove information from our backup systems. </string>
+	<string name="privacypara14">Whenever you use our services, we aim to provide you with access to your personal information. If that information is wrong, we strive to give you ways to update it quickly or to delete it – unless we have to keep that information for legitimate business or legal purposes. When updating your personal information, we may ask you to verify your identity before we can act on your request. 
+We may reject requests that are unreasonably repetitive, require disproportionate technical effort (for example, developing a new system or fundamentally changing an existing practice), risk the privacy of others, or would be extremely impractical (for instance, requests concerning information residing on backup tapes).</string>
+	<string name="privacyheading5">Accessing and updating your personal information</string>
+	<string name="privacypara13">Other users may be able to identify you, or associate you with your account if you include personal information in the content you post publicly. You can reduce the risk of being personally identified by using the Site pseudonymously, though doing so could detract from the credibility of your contributions to the Site. Please also note that itineraries you share with other members using the Site are only private to the extent that both you and the sender/recipient keep them private. For example, we do not have any control over whether a recipient of one of your shared itineraries publicly posts it or its contents.</string>
+	<string name="privacyheading4">Controlling Your Personal Data</string>
+	<string name="privacypara12">Links: The Site may contain links to unaffiliated third party websites. Except as set forth herein, we do not share your personal information with them, and are not responsible for their privacy practices. We suggest you read the privacy policies on all such third party websites.</string>
+	<string name="privacypara11">Investigations: We may investigate and disclose information from or about you if we have a good faith belief that such investigation or disclosure is a) reasonably necessary to comply with legal process and law enforcement instructions and orders, such as a search warrant, subpoena, statute, judicial proceeding, or other legal process served on us; b) helpful to prevent, investigate, or identify possible wrongdoing in connection with the Site; or c) protect our rights, reputation, property, or that of our users, affiliates, or the public.</string>
+	<string name="privacypara10">Businesses and Partners on CityWhisk: We may share non-personally identifiable information from or about you and your use of the Site with businesses and partners on CityWhisk.</string>
+	<string name="privacypara9">Business Transfers: If CityWhisk is involved in a merger, acquisition or asset sale, we will continue to ensure the confidentiality of any personal information and give affected users notice before personal information is transferred or becomes subject to a different privacy policy.</string>
+	<string name="privacypara8">Aggregate Information: We may share non-personally identifiable user information in the aggregate with third parties and business partners.</string>
+	<string name="privacypara7">Service Providers: Some of the services that are offered through the Site may be provided by third-party providers. We also outsource some of CityWhisk’s functions to third-party providers, such as technical and customer support, tracking and reporting functions, quality assurance testing, payment processing functions, and other services. We may share information from or about you with these third-party providers so that they can perform their services or complete your requests.</string>
+	<string name="privacyheading3">Third Parties</string>
+	<string name="privacypara5">We use information we obtain by technical means (such as the automatic recording performed by our servers or through the use of cookies) for the above purposes and in order to monitor and analyze use of the Site and our services and for the Site’s technical administration, to increase our Site’s functionality and user-friendliness, to better tailor it to your needs, to generate and derive useful data and information concerning the interests, characteristics and website use behavior of our users, and to verify that visitors to the Site meet the criteria required to process their requests.</string>
+	<string name="privacypara6">We may share information about you with third parties as follows:</string>
+	<string name="privacypara4">Personal Information is used for the following purposes: (i) to provide and improve our Site, services, features and content, (ii) to administer your membership and your use of our Site, (iii) to enable users to enjoy and easily navigate the Site, (iv) to better understand your needs and interests, (v) to fulfill requests you may make, (vi) to personalize your experience, (vii) to provide or offer software updates and product announcements, and (viii) to provide you with further information and offers from us or third parties that we believe you may find useful or interesting, including newsletters, marketing or promotional materials and other information on services and products offered by us or third parties. If you decide at any time that you no longer wish to receive such communications, please follow the unsubscribe instructions provided in any of the communications or update your “user preferences” information.</string>
+	<string name="searchByName">SEARCH\n BY NAME</string>
+	<string name="searchByAct">SEARCH\n BY ACTIVITY</string>
+	<string name="privacy_tab_1">Privacy</string>
+	<string name="privacy_tab_2">Terms</string>
+	<string name="termspara1">
+	    CityWhisk, ltd. (“CityWhisk” or “us” or “our”) operates this website, www.citywhisk.com, the mobile and touch versions and any individual sites or merchant-specific, city-specific, or other area-specific sites we have now or in the future. The website and links contained within or otherwise available through external hyperlinks within our site (the “Microsites”) will be collectively referred to as the “Site” in these terms of use. By using our site and CityWhisk’s services through the site, you (“you” or, “End User”) agree to these terms of use, our privacy statement, and any additional terms applicable to certain programs in which you may elect to participate or with respect to any microsite, as any of the same may exist from time to time (collectively, the “Terms of Service” or “Agreement”). The term "using" includes any person or entity who accesses or uses the site with crawlers, robots, browsers, data mining, or extraction tools, or other functionality, whether such functionality is installed or placed by such person or entity or a third party. If you do not agree to the terms of this agreement, immediately stop accessing the site and do not use any CityWhisk service or purchase any product offered through the site.
+	</string>
+	<string name="termspara2">
+	    CityWhisk retains the right at our sole discretion to deny service, or access to the Site or an account to anyone, at any time and for any reason. You acknowledge that there may be interruptions in service or events that are beyond our control. While we use reasonable efforts to keep the Site accessible, the Site may be unavailable from time to time for any reason including, without limitation, routine maintenance. You understand and acknowledge that due to circumstances both within and outside of our control Site access may be interrupted, suspended or terminated.
+	</string>
+	<string name="termspara3">
+	    All Content, whether publicly posted or privately transmitted, is the sole responsibility of the person who originated such Content. CityWhisk cannot guarantee the authenticity of any Content or data which users may provide about themselves. You acknowledge that all Content accessed by you using the Service is at your own risk and you will be solely responsible and liable for any damage or loss to you or any other party resulting therefrom. For purposes of these Terms of Service, the term "Content" includes, without limitation, any location information, videos, audio clips, comments, information, data, text, photographs, software, scripts, graphics, and interactive features generated, provided, or otherwise made accessible by CityWhisk on or through the Service. Content added, created, uploaded, submitted, distributed, posted or otherwise obtained through the Service by users, including Content that is added to the Service in connection with users linking their accounts to third party websites and services, is collectively referred to as, "User Submissions."
+	</string>
+	<string name="termspara4">
+	    We will respond to notices of alleged copyright infringement that comply with applicable law and are properly provided to us. If you believe that your Content has been copied in a way that constitutes copyright infringement, please provide our copyright agent with the following information in accordance with the Digital Millennium Copyright Act: (i) a physical or electronic signature of the copyright owner or a person authorized to act on their behalf; (ii) identification of the copyrighted work claimed to have been infringed; (iii) identification of the material that is claimed to be infringing or to be the subject of infringing activity and that is to be removed or access to which is to be disabled, and information reasonably sufficient to permit us to locate the material; (iv) your contact information, including your address, telephone number, and an email address; (v) a statement by you that you have a good faith belief that use of the material in the manner complained of is not authorized by the copyright owner, its agent, or the law; and (vi) a statement that the information in the notification is accurate, and, under penalty of perjury, that you are authorized to act on behalf of the copyright owner.
+	</string>
+	<string name="termspara5">
+	    We may use Your Content in a number of different ways, including publicly displaying it, reformatting it, incorporating it into advertisements and other works, creating derivative works from it, promoting it, distributing it, and allowing others to do the same in connection with their own websites and media platforms ("Other Media"). As such, you hereby irrevocably grant us world-wide, perpetual, non-exclusive, royalty-free, assignable, sublicensable, transferable rights to use Your Content for any purpose. Please note that you also irrevocably grant the users of the Site and any Other Media the right to access Your Content in connection with their use of the Site and any Other Media. Finally, you irrevocably waive, and cause to be waived, against CityWhisk and its users any claims and assertions of moral rights or attribution with respect to Your Content. By "use" we mean use, copy, publicly perform and display, reproduce, distribute, modify, translate, remove, analyze, commercialize, and prepare derivative works of Your Content.
+	</string>
+	<string name="termspara6">
+	    As between you and CityWhisk, you own Your Content. We own the CityWhisk Content, including but not limited to visual interfaces, interactive features, graphics, design, compilation, including, but not limited to, our compilation of User Content and other Site Content, computer code, products, software, aggregate user review ratings, and all other elements and components of the Site excluding Your Content, User Content and Third Party Content. We also own the copyrights, trademarks, service marks, trade names, and other intellectual and proprietary rights throughout the world ("IP Rights") associated with the CityWhisk Content and the Site, which are protected by copyright, trade dress, patent, trademark laws and all other applicable intellectual and proprietary rights and laws. As such, you may not modify, reproduce, distribute, create derivative works or adaptations of, publicly display or in any way exploit any of the CityWhisk Content in whole or in part except as expressly authorized by us. Except as expressly and unambiguously provided herein, we do not grant you any express or implied rights, and all rights in and to the Site and the CityWhisk Content are retained by us.
+	</string>
+	<string name="termspara7">
+	    Our Site is private property. All interactions on this Site must be lawful and must comply with these Terms of Service. To the extent your conduct (as judged by us in our sole discretion), restricts or inhibits any other user from using or enjoying any part of this Site, we may limit your privileges on the Site and seek other remedies. PLEASE DO NOT ENGAGE IN ANY OF THE FOLLOWING ACTIVITIES, they are prohibited on the Site and constitute express violations of this Agreement:
+	</string>
+	<string name="termspara8">
+	    Posting, uploading, publishing, submitting or transmitting any text, graphics, images, software, music, audio, video, information or other material that: (i) infringes, misappropriates or violates a third party’s patent, copyright, trademark, trade secret, moral rights or other intellectual property rights, or rights of publicity or privacy; (ii) violates, or encourages any conduct that would violate, any applicable law or regulation or would give rise to civil liability; (iii) is fraudulent, false, misleading or deceptive; (iv) is defamatory, obscene, pornographic, vulgar or offensive; (v) promotes discrimination, bigotry, racism, hatred, harassment or harm against any individual or group; (vi) is violent or threatening or promotes violence or actions that are threatening to any other person; or (vii) promotes illegal or harmful activities or substances. 
+Use, display, mirror or frame the Site, or any individual element within the Site, CityWhisk’s name, any CityWhisk trademark, logo or other proprietary information, or the layout and design of any page or form contained on a page, without CityWhisk’s express written consent;
+Access, tamper with, or use non-public areas of the Site, CityWhisk’s computer systems, or the technical delivery systems of CityWhisk’s providers;
+Attempt to probe, scan, or test the vulnerability of any CityWhisk system or network or breach any security or authentication measures;
+Avoid, bypass, remove, deactivate, impair, descramble or otherwise circumvent any technological measure implemented by CityWhisk or any of CityWhisk’s providers or any other third party (including another user) to protect the Site, Services or Content;
+Attempt to access or search the Site, Services or Content or download Content from the Site or Services through the use of any engine, software, tool, agent, device or mechanism (including spiders, robots, crawlers, data mining tools or the like) other than the software and/or search agents provided by Client or other generally available third party web browsers;
+Send any unsolicited or unauthorized advertising, promotional materials, email, junk mail, spam, chain letters or other form of solicitation;
+Use any meta tags or other hidden text or metadata utilizing a CityWhisk trademark, logo URL or product name without CityWhisk’s express written consent;
+Use the Site, Services or Content for any commercial purpose or the benefit of any third party or in any manner not permitted by these Terms;
+Forge any TCP/IP packet header or any part of the header information in any email or newsgroup posting, or in any way use the Site, Services or Content to send altered, deceptive or false source-identifying information;
+Attempt to decipher, decompile, disassemble or reverse engineer any of the software used to provide the Site, Services or Content;
+Interfere with, or attempt to interfere with, the access of any user, host or network, including, without limitation, sending a virus, overloading, flooding, spamming, or mail-bombing the Site;
+Collect or store any personally identifiable information from the Site or Services from other users of the Site or Services without their express permission;
+Impersonate or misrepresent your affiliation with any person or entity;
+Violate any applicable law or regulation; or
+Encourage or enable any other individual to do any of the foregoing.
+	</string>
+	<string name="termspara9">
+	    CityWhisk will have the right to investigate and prosecute violations of any of the above to the fullest 
+	    extent of the law. CityWhisk may involve and cooperate with law enforcement authorities in prosecuting users 
+	    who violate these Terms. You acknowledge that CityWhisk has no obligation to monitor your access to or use of 
+	    the Site, Services or Content or to review or edit any User Content, but has the right to do so for the 
+	    purpose of operating the Site and Services, to ensure your compliance with these Terms, or to comply with 
+	    applicable law or the order or requirement of a court, administrative agency or other governmental body. 
+	    CityWhisk reserves the right, at any time and without prior notice, to remove or disable access to any 
+	    Content, including, any User Content, that CityWhisk, at its sole discretion, considers to be in violation 
+	    of these Terms or otherwise harmful to the Site or Services.
+	</string>
+	<string name="termspara10">
+	    By sending us any ideas, suggestions, documents or proposals ("Feedback"), you agree that (i) your Feedback 
+	    does not contain the confidential or proprietary information of third parties, (ii) we are under no obligation 
+	    of confidentiality, express or implied, with respect to the Feedback, (iii) we may have something similar to the 
+	    Feedback already under consideration or in development, and (iv) you grant us an irrevocable, non-exclusive, 
+	    royalty-free, perpetual, worldwide license to use, modify, prepare derivative works, publish, distribute and 
+	    sublicense the Feedback, and you irrevocably waive, and cause to be waived, against CityWhisk and its users 
+	    any claims and assertions of any moral rights contained in such Feedback.
+	</string>
+	<string name="termspara11">
+	    The Site may contain links to third-party websites or resources. You acknowledge and agree that CityWhisk 
+	    is not responsible or liable for: (i) the availability or accuracy of such websites or resources; or (ii) 
+	    the content, products, or services on or available from such websites or resources. Links to such websites 
+	    or resources do not imply any endorsement by CityWhisk of such websites or resources or the content, products, 
+	    or services available from such websites or resources. You acknowledge sole responsibility for and assume all 
+	    risk arising from your use of any such websites or resources.
+	</string>
+	<string name="termspara12">
+	    CityWhisk may terminate these Terms of Service at any time. Without limiting the foregoing, CityWhisk 
+	    shall have the right to immediately terminate or suspend any of your passwords or accounts in the event 
+	    CityWhisk considers, in its sole discretion, any of your conduct to be unacceptable, or in the event you 
+	    breach this Agreement. Any such action could prevent you from accessing your account, the Site, Your Content, 
+	    Site Content, or any other related information.
+	</string>
+	<string name="termspara13">
+	    Notwithstanding the above, these Terms of Service will survive termination of this Agreement. You may 
+	    terminate the Terms at any time by closing your account and discontinuing your use of the Site.
+	</string>
+	<string name="termspara14">
+	    The CityWhisk entities expressly disclaim all warranties, whether express or implied, including warranties 
+	    as to the products or services offered by businesses listed on the site, and implied warranties of 
+	    merchantability, fitness for a particular purpose, and non-infringement. No oral or written information or 
+	    advice provided to you by a representative of one of the CityWhisk entities shall create a representation 
+	    or warranty. Your sole and exclusive right and remedy in case of dissatisfaction with the site, related 
+	    services, or any other grievance shall be your termination and discontinuation of access to, or use of the site.
+	</string>
+	<string name="termspara15">
+	    You agree to indemnify, defend, and hold CityWhisk, its parents, subsidiaries, affiliates, any related 
+	    companies, suppliers, licensors and partners, and the officers, directors, employees, agents and 
+	    representatives of each of them harmless, including costs, liabilities and legal fees, from any claim or 
+	    demand made by any third party arising out of or relating to (i) your access to or use of the Site, (ii) 
+	    your violation of the Terms, (iii) any products or services purchased or obtained by you in connection with 
+	    the Site, or (iv) the infringement by you, or any third party using your account, of any intellectual property 
+	    or other right of any person or entity.
+	</string>
+	<string name="termspara16">
+	    Please read this section carefully since it limits the liability of the CityWhisk entities to you. Nothing 
+	    herein is intended to limit any rights you may have which may not be lawfully limited. If you are unsure 
+	    about this or any other section of these terms, please consult with a legal professional prior to accessing 
+	    or using the site. By accessing or using the site, you represent that you have read, understood, and agree 
+	    to these terms, including this section. You are giving up substantial legal rights by agreeing to these terms.
+	</string>
+	<string name="termspara17">
+	    The site is made available to you on an "as is", "with all faults" and "as available" basis, with the express 
+	    understanding that the CityWhisk entities may not monitor, control, or vet user content. As such, your use of 
+	    the site is at your own discretion and risk. The CityWhisk entities make no claims or promises about the 
+	    quality, accuracy, or reliability of the site, its safety or security, or the site content. Accordingly, 
+	    the CityWhisk entities are not liable to you for any loss or damage that might arise, for example, from 
+	    the site\'s inoperability, unavailability or security vulnerabilities or from your reliance on the 
+	    quality, accuracy, or reliability of the business listings, ratings, reviews (including their content, 
+	    order, and display), or metrics found on, used on, or made available through the site. The CityWhisk 
+	    entities disclaim liability for any (i) indirect, special, incidental, punitive, exemplary, reliance, 
+	    or consequential damages, (ii) loss of profits, (iii) business interruption, (iv) reputational harm, or 
+	    (v) loss of information or data.
+	</string>
+	<string name="termspara18">
+	    In no event shall CityWhisk, its subsidiaries, affiliates nor any of their respective employees, agents, 
+	    merchants, partners, third-party content providers or licensors, or any of their officers, directors, 
+	    employees or agents, be liable for any indirect, incidental, special, consequential or punitive damages 
+	    arising out of or related to your use of the site, the content, statements and other information contained 
+	    therein, the products or services accessible or available through the site or these terms of use. Your 
+	    purchase and use of products or services offered by third parties through the site is at your own discretion 
+	    and risk.
+	</string>
+	<string name="termspara19">
+	    The CityWhisk entities\' maximum aggregate liability to you for losses or damages that you suffer in 
+	    connection with the site or these terms is limited to the greater of (i) the amount paid, if any, by 
+	    you to the CityWhisk entities in connection with the site in the 12 months prior to the action giving 
+	    rise to liability, or (ii) $100.
+	</string>
+	<string name="termspara20">
+	    Any disputes arising out of or related to these Terms of Service and/or any Use by you of the Site or 
+	    CityWhisk’s services shall be governed by the internal laws of the State of Illinois, without regard to 
+	    its choice of law rules and without regard to conflicts of laws principles except that the Arbitration 
+	    provision shall be governed by the Federal Arbitration Act.
+	</string>
+	<string name="termspara21">
+	    CityWhisk reserves the right, at its sole discretion, to modify, discontinue or terminate the Site or Services
+	    or to modify these Terms, at any time and without prior notice. If we modify these Terms, we will post the 
+	    modification on the Site or provide you with notice of the modification. By continuing to access or use the 
+	    Site or the Services after we have posted a modification on the Site or have provided you with notice of a 
+	    modification, you are indicating that you agree to be bound by the modified Terms. If the modified Terms are 
+	    not acceptable to you, your only recourse is to cease using the Site and the Services.
+	</string>
+	<string name="termspara22">
+	    CityWhisk reserve the right to modify, update, or discontinue the Site at our sole discretion, at any time, 
+	    for any or no reason, and without notice or liability. We may provide you with notices, including those 
+	    regarding changes to the Terms by email, regular mail or communications through the Site.
+	</string>
+	<string name="termspara23">
+	    The Terms contain the entire agreement between you and us regarding the use of the Site, and supersede any 
+	    prior agreement between you and us on such subject matter. The parties acknowledge that no reliance is placed 
+	    on any representation made but not expressly contained in these Terms. No agency, partnership, joint venture, 
+	    or employment relationship is created as a result of these Terms of Service and neither party has any authority 
+	    of any kind to bind the other in any respect.
+	</string>
+	<string name="termspara24">
+	    Any failure on CityWhisk\’s part to exercise or enforce any right or provision of the Terms does not constitute 
+	    a waiver of such right or provision. The failure of either party to exercise in any respect any right provided 
+	    for herein shall not be deemed a waiver of any further rights hereunder.
+	</string>
+	<string name="termspara25">
+	    If any provision of the Terms is found to be unenforceable or invalid, then only that provision shall be 
+	    modified to reflect the parties\' intention or eliminated to the minimum extent necessary so that the Terms 
+	    shall otherwise remain in full force and effect and enforceable.
+	</string>
+	<string name="termspara26">
+	    The Terms, and any rights or obligations hereunder, are not assignable, transferable or sublicensable by you 
+	    except with CityWhisk’s prior written consent, but may be assigned or transferred by us without restriction. 
+	    Any attempted assignment by you shall violate these Terms and be void.
+	</string>
+	<string name="termspara27">
+	    The section titles in the Terms are for convenience only and have no legal or contractual effect.
+	</string>
+	<string name="termsheading1">Acceptance of Terms of Service</string>
+	<string name="termsheading2">Access</string>
+	<string name="termsheading3">Content</string>
+	<string name="termsheading4">Copyright Policy</string>
+	<string name="termsheading5">Our Right to Use Your Content</string>
+	<string name="termsheading6">Ownership</string>
+	<string name="termsheading7">Rules and Conduct</string>
+	<string name="termsheading8">Feedback</string>
+	<string name="termsheading9">Links</string>
+	<string name="termsheading10">Termination</string>
+	<string name="termsheading11">Disclaimers</string>
+	<string name="termsheading12">Indemnity</string>
+	<string name="termsheading13">Limitation of Liability</string>
+	<string name="termsheading14">Choice of Law</string>
+	<string name="termsheading15">Modification of this Agreement</string>
+	<string name="termsheading16">General Terms</string>
+	<string name="startItinerary">GENERATE NEW ITINERARY</string>
+	<string name="privacyheading0">Privacy Policy</string>
+	<string name="okay">OK</string>
+	<string name="unsavedData">Unsaved itinerary data\n will be lost</string>
+	<string name="deleteAct">Delete activity?</string>
+	<string name="search3">Please search at least\n 3 characters.</string>
+	<string name="geofence_transition_invalid_type">
+        Geofence transition error. Invalid type %1$d in geofences %2$s
+    </string>
+    <string name="geofence_transition_notification_text">
+        Click notification to return to app
+    </string>
+    <string name="geofence_transition_notification_title">
+        %1$s geofence(s) %2$s
+    </string>
+    <string name="geofence_transition_unknown">Unknown transition</string>
+    <string name="connection_error_code">Connection failure error code: %1$d</string>
+    <string name="connection_error_disabled">Google Play services is disabled</string>
+    <string name="connection_error_internal">An internal error occurred</string>
+    <string name="connection_error_invalid">
+        The version of Google Play services on this device is not authentic
+    </string>
+    <string name="connection_error_invalid_account">The specified account name is invalid</string>
+    <string name="connection_error_license_check_failed">
+        The app is not licensed to the user
+    </string>
+    <string name="connection_error_message">Connection failure error message: %1$s</string>
+    <string name="connection_error_misconfigured">The application is misconfigured</string>
+    <string name="connection_error_missing">Google Play services is missing</string>
+    <string name="connection_error_needs_resolution">Additional resolution is required</string>
+    <string name="connection_error_network">A network error occurred</string>
+    <string name="connection_error_outdated">Google Play services is out of date</string>
+    <string name="connection_error_sign_in_required">The user is not signed in</string>
+    <string name="connection_error_unknown">An unknown error occurred</string>
+    <string name="geofence_transition_error_detail">
+        Geofence transition error, code %1$d message %2$s.
+    </string>
+        <string name="remove_geofences_intent_failure">
+        Removing all geofences failed: error code %1$d
+    </string>
+    <string name="remove_geofences_intent_success">
+        Removing all geofences succeeded.
+    </string>
+    <string name="remove_geofences_already_requested_error">
+        Can\'t remove geofences, previous request hasn\'t finished.
+    </string>
+    <string name="remove_geofences_id_success">
+        Removing geofences by request ids succeeded: request ids: %1$s
+    </string>
+    <string name="remove_geofences_id_failure">
+        Removing geofences by request id failed: error code %1$d GeofenceRequestIds=%2$s
+    </string>
+</resources>

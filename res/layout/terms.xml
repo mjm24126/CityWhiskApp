@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/termsScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#444444"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical"
+    	android:paddingLeft="15dp"
+    	android:paddingRight="15dp" >
+		
+		<TextView
+	        android:id="@+id/termsHeading1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/termsheading1"
+	        android:textAppearance="?android:attr/textAppearanceMedium"
+	        android:textColor="#FFFFFF" />
+		
+	    <TextView
+	        android:id="@+id/termsPara1"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/termspara1"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textColor="#ffffff"
+	        android:textColorHint="#FFFFFF" />
+	
+	    <TextView
+	        android:id="@+id/termsHeading2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/termsheading2"
+	        android:textAppearance="?android:attr/textAppearanceMedium"
+	        android:textColor="#FFFFFF" />
+		
+	    <TextView
+	        android:id="@+id/termsPara2"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/termspara2"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textColor="#ffffff"
+	        android:textColorHint="#FFFFFF" />
+	
+	    <TextView
+	        android:id="@+id/termsHeading3"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/termsheading3"
+	        android:textAppearance="?android:attr/textAppearanceMedium"
+	        android:textColor="#FFFFFF" />
+		
+	    <TextView
+	        android:id="@+id/termsPara3"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/termspara3"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textColor="#ffffff"
+	        android:textColorHint="#FFFFFF" />
+	    
+	    <TextView
+	        android:id="@+id/termsHeading4"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/termsheading4"
+	        android:textAppearance="?android:attr/textAppearanceMedium"
+	        android:textColor="#FFFFFF" />
+		
+	    <TextView
+	        android:id="@+id/termsPara4"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/termspara4"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textColor="#ffffff"
+	        android:textColorHint="#FFFFFF" />
+	    
+	    <TextView
+	        android:id="@+id/termsHeading5"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/termsheading5"
+	        android:textAppearance="?android:attr/textAppearanceMedium"
+	        android:textColor="#FFFFFF" />
+		
+	    <TextView
+	        android:id="@+id/termsPara5"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/termspara5"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textColor="#ffffff"
+	        android:textColorHint="#FFFFFF" />
+	    
+	    <TextView
+	        android:id="@+id/termsHeading6"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/termsheading6"
+	        android:textAppearance="?android:attr/textAppearanceMedium"
+	        android:textColor="#FFFFFF" />
+		
+	    <TextView
+	        android:id="@+id/termsPara6"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/termspara6"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textColor="#ffffff"
+	        android:textColorHint="#FFFFFF" />
+	    
+	    <TextView
+	        android:id="@+id/termsHeading7"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/termsheading7"
+	        android:textAppearance="?android:attr/textAppearanceMedium"
+	        android:textColor="#FFFFFF" />
+		
+	    <TextView
+	        android:id="@+id/termsPara7"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/termspara7"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textColor="#ffffff"
+	        android:textColorHint="#FFFFFF" />
+	    
+	    <TextView
+	        android:id="@+id/termsPara8"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/termspara8"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textColor="#ffffff"
+	        android:textColorHint="#FFFFFF" />
+	    
+	    <TextView
+	        android:id="@+id/termsPara9"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/termspara9"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textColor="#ffffff"
+	        android:textColorHint="#FFFFFF" />
+	    
+	    <TextView
+	        android:id="@+id/termsHeading8"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/termsheading8"
+	        android:textAppearance="?android:attr/textAppearanceMedium"
+	        android:textColor="#FFFFFF" />
+		
+	    <TextView
+	        android:id="@+id/termsPara10"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/termspara10"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textColor="#ffffff"
+	        android:textColorHint="#FFFFFF" />
+	
+	    <TextView
+	        android:id="@+id/termsHeading9"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/termsheading9"
+	        android:textAppearance="?android:attr/textAppearanceMedium"
+	        android:textColor="#FFFFFF" />
+		
+	    <TextView
+	        android:id="@+id/termsPara11"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/termspara11"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textColor="#ffffff"
+	        android:textColorHint="#FFFFFF" />
+	    
+	    <TextView
+	        android:id="@+id/termsHeading10"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/termsheading10"
+	        android:textAppearance="?android:attr/textAppearanceMedium"
+	        android:textColor="#FFFFFF" />
+		
+	    <TextView
+	        android:id="@+id/termsPara12"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/termspara12"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textColor="#ffffff"
+	        android:textColorHint="#FFFFFF" />
+	    
+	    <TextView
+	        android:id="@+id/termsPara13"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/termspara13"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textColor="#ffffff"
+	        android:textColorHint="#FFFFFF" />
+	
+	    <TextView
+	        android:id="@+id/termsHeading11"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/termsheading11"
+	        android:textAppearance="?android:attr/textAppearanceMedium"
+	        android:textColor="#FFFFFF" />
+		
+	    <TextView
+	        android:id="@+id/termsPara14"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/termspara14"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textColor="#ffffff"
+	        android:textColorHint="#FFFFFF" />
+	    
+	    <TextView
+	        android:id="@+id/termsHeading12"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/termsheading12"
+	        android:textAppearance="?android:attr/textAppearanceMedium"
+	        android:textColor="#FFFFFF" />
+		
+	    <TextView
+	        android:id="@+id/termsPara15"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/termspara15"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textColor="#ffffff"
+	        android:textColorHint="#FFFFFF" />
+	    
+	    <TextView
+	        android:id="@+id/termsHeading13"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/termsheading13"
+	        android:textAppearance="?android:attr/textAppearanceMedium"
+	        android:textColor="#FFFFFF" />
+		
+	    <TextView
+	        android:id="@+id/termsPara16"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/termspara16"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textColor="#ffffff"
+	        android:textColorHint="#FFFFFF" />
+	    
+	    <TextView
+	        android:id="@+id/termsPara17"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/termspara17"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textColor="#ffffff"
+	        android:textColorHint="#FFFFFF" />
+	    
+	    <TextView
+	        android:id="@+id/termsPara18"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/termspara18"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textColor="#ffffff"
+	        android:textColorHint="#FFFFFF" />
+	    
+	    <TextView
+	        android:id="@+id/termsPara19"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/termspara19"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textColor="#ffffff"
+	        android:textColorHint="#FFFFFF" />
+	    
+	    <TextView
+	        android:id="@+id/termsHeading14"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/termsheading14"
+	        android:textAppearance="?android:attr/textAppearanceMedium"
+	        android:textColor="#FFFFFF" />
+		
+	    <TextView
+	        android:id="@+id/termsPara20"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/termspara20"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textColor="#ffffff"
+	        android:textColorHint="#FFFFFF" />
+	    
+	    <TextView
+	        android:id="@+id/termsHeading15"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/termsheading15"
+	        android:textAppearance="?android:attr/textAppearanceMedium"
+	        android:textColor="#FFFFFF" />
+		
+	    <TextView
+	        android:id="@+id/termsPara21"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/termspara21"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textColor="#ffffff"
+	        android:textColorHint="#FFFFFF" />
+	    
+	    <TextView
+	        android:id="@+id/termsHeading16"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/termsheading16"
+	        android:textAppearance="?android:attr/textAppearanceMedium"
+	        android:textColor="#FFFFFF" />
+		
+	    <TextView
+	        android:id="@+id/termsPara22"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/termspara22"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textColor="#ffffff"
+	        android:textColorHint="#FFFFFF" />
+	    
+	    <TextView
+	        android:id="@+id/termsPara23"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/termspara23"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textColor="#ffffff"
+	        android:textColorHint="#FFFFFF" />
+	    
+	    <TextView
+	        android:id="@+id/termsPara24"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/termspara24"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textColor="#ffffff"
+	        android:textColorHint="#FFFFFF" />
+	    
+	    <TextView
+	        android:id="@+id/termsPara25"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/termspara25"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textColor="#ffffff"
+	        android:textColorHint="#FFFFFF" />
+	    
+	    <TextView
+	        android:id="@+id/termsPara26"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/termspara26"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textColor="#ffffff"
+	        android:textColorHint="#FFFFFF" />
+	    
+	    <TextView
+	        android:id="@+id/termsPara27"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/termspara27"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textColor="#ffffff"
+	        android:textColorHint="#FFFFFF" />
+	    
+    </LinearLayout>
+</ScrollView>
