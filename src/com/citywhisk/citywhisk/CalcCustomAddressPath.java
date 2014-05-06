@@ -30,7 +30,6 @@ public class CalcCustomAddressPath  extends AsyncTask<String, Void, String> {
 
 	String distance;
 	public CalcCustomAddressPath(Context con, double lat, double lon, Itinerary tour, CustomListView cl) {
-		// TODO Auto-generated constructor stub
 		this.lat = lat;
 		this.lon = lon;
 		this.con = con;
@@ -113,6 +112,7 @@ public class CalcCustomAddressPath  extends AsyncTask<String, Void, String> {
 		// TODO Auto-generated method stub
 		super.onPostExecute(result);
 		cl.notifyDataSetChanged();
+		
 		pDialog.dismiss();
 
 	}

@@ -104,13 +104,6 @@ public class CustomListView extends ArrayAdapter<Entity> implements OnMenuItemCl
 	};
 	
 	public boolean areAllItemsEnabled () {
-	    return false;
-	}
-	
-	public boolean isEnabled (int position) {
-	    if (position == 0) {
-	       return false;
-	    }
 	    return true;
 	}
 
@@ -127,9 +120,6 @@ public class CustomListView extends ArrayAdapter<Entity> implements OnMenuItemCl
 					.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 			v = inflater.inflate(R.layout.customlist, null);
 			
-			if( position == 0 ){
-				v.setEnabled(false);
-			}
 			// testing setting active itinerary stop to different color
 			/*if( position == 2 ){
 				v.setBackgroundResource(R.drawable.listgradient_active);
@@ -231,9 +221,6 @@ public class CustomListView extends ArrayAdapter<Entity> implements OnMenuItemCl
 			}
 
 			TextView number = (TextView) v.findViewById(R.id.number);
-			//typeFace = Typeface.createFromAsset(getContext().getAssets(),
-				//	"fonts/GOTHIC.TTF");
-			//number.setTypeface(typeFace);
 			number.setText("" + (objects.indexOf(i) + 1));
 
 			
@@ -251,51 +238,6 @@ public class CustomListView extends ArrayAdapter<Entity> implements OnMenuItemCl
 			}*/
 
 		}
-
-		/*final CheckBox entityHoldCheck = (CheckBox) v.findViewById(R.id.entityHold);
-		entityHoldCheck.setFocusable(false);
-
-		if (position == 0) {
-			entityHoldCheck.setChecked(true);
-			entityHoldCheck.setEnabled(false);
-		} else {
-			String locked = settings.getString("lockedRows", "");
-
-			if( i.isLocked() ) {
-				entityHoldCheck.setChecked(true);
-			} else {
-				entityHoldCheck.setChecked(false);
-			}
-			entityHoldCheck.setEnabled(true);
-		}
-
-		entityHoldCheck.setOnClickListener(new View.OnClickListener() {
-
-			@Override
-			public void onClick(View v) {
-				// TODO Auto-generated method stub
-				SharedPreferences.Editor editor = settings.edit();
-
-				if (entityHoldCheck.isChecked() == true) {
-					((MainPage) c).lockedPositions.add(position);
-					((MainPage) c).getItinerary().itin.get(position).setLocked(true);
-					editor.putString("lockedRows",
-							settings.getString("lockedRows", "") + pos);
-				} else {
-					if( ((MainPage) c).lockedPositions.contains(pos) ) {
-						((MainPage) c).lockedPositions.remove(((MainPage) c).lockedPositions.indexOf(pos));
-					}
-					((MainPage) c).getItinerary().itin.get(position).setLocked(false);
-					String str = settings.getString("lockedRows", "");
-					str = str.replace(pos, "");
-					editor.putString("lockedRows", str);
-				}
-				editor.commit();
-				notifyDataSetChanged();
-				((MainPage) c).controller.setLockedPositions(((MainPage) c).lockedPositions);
-				//Log.i("locked pos", ((MainPage) c).lockedPositions.toString());
-			}
-		});*/
 
 		ImageView draghandler = (ImageView) v.findViewById(R.id.savingImage);
 		if(position==0){
