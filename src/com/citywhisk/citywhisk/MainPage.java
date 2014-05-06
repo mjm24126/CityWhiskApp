@@ -277,6 +277,13 @@ public class MainPage extends BaseActionBar{
 			actionBar.addTab(tab);
 			actionBar.setHomeButtonEnabled(false);
 
+			
+			// PREFERENCES TAB FOR LATER VERSION
+			/*tab = actionBar.newTab()
+					.setText(R.string.pref_tab)
+					.setTabListener(new TabListener<FragPref>(this, "Pref", FragPref.class));
+			actionBar.addTab(tab);*/
+			
 			// search intent
 			handleIntent(getIntent());
 			
@@ -400,6 +407,16 @@ public class MainPage extends BaseActionBar{
 			
 			builder.create().show();
 			
+			return true;*/
+
+		/*case R.id.actionbar6:
+			startActivity(new Intent(this, SettingsClass.class));
+			//Log.i("onOptionsItemSelected","finished");
+			return true;*/
+
+		/*case R.id.actionbar7:
+			startActivity(new Intent(this, HowToClass.class));
+			//Log.i("onOptionsItemSelected","finished");
 			return true;*/
 
 		case R.id.actionbar8:
@@ -614,6 +631,7 @@ public class MainPage extends BaseActionBar{
 			((DragSortListView) lV).setDropListener(onDrop);
 			
 			
+			//DragSortController controller = new DragSortController((DragSortListView) myListView, ActiveItinerary.this);
 			controller = new DragSortController((DragSortListView) lV);
 			controller.setDragHandleId(R.id.savingImage);
 			controller.setLockedPositions(lockedPositions);
@@ -736,6 +754,7 @@ public class MainPage extends BaseActionBar{
 				public void onItemClick(AdapterView<?> parent, View view,
 						int position, long id) {
 					final Dialog d = new Dialog(MainPage.this);
+					
 					if(position !=0){
 						Intent intent = new Intent(MainPage.this, DetailClass.class);
 						intent.putExtra("detailIndex", position);
@@ -748,10 +767,15 @@ public class MainPage extends BaseActionBar{
 						
 						Button customAddressBtn = (Button) d.findViewById(R.id.modifyStartingLocation);
 
+						//final CheckBox cb = (CheckBox) d.findViewById(R.id.endAtStart);
 						final EditText address = (EditText) d.findViewById(R.id.adressField);
 
-						if(address.getText().length()>0){
-							address.setText("");
+						/*if(settings.getString("endAtStart","").equals("true")){
+							cb.setChecked(true);
+
+						}*/
+						if(settings.getString("startAddress", "").length()>0){
+							address.setText(settings.getString("startAddress", ""));
 						}
 
 						customAddressBtn.setOnClickListener(new View.OnClickListener() {
@@ -768,39 +792,47 @@ public class MainPage extends BaseActionBar{
 										Address location = geocoderAddress.get(0);
 
 										if(location != null){
+											SharedPreferences.Editor editor = settings.edit();
+											editor.putString("latitude", ""+location.getLatitude()+"");
+											editor.putString("longitude", ""+location.getLongitude()+"");
+											editor.putString("startAddress", address.getText().toString());
 											
+											editor.commit();
 
 											d.dismiss();
-											// set new address as starting location
+
+											//re-calculate the path from destination 1 to 2
+											CalcCustomAddressPath calcCustomAddressPathObj = new CalcCustomAddressPath(MainPage.this, location.getLatitude(), location.getLongitude(), getItinerary(), cl);
+											calcCustomAddressPathObj.execute();
+
+											//wait for thread to complete
+											calcCustomAddressPathObj.get();
+											
 											getItinerary().itin.get(0).setLatitude(""+location.getLatitude());
 											getItinerary().itin.get(0).setLongitude(""+location.getLongitude());
 											getItinerary().itin.get(0).setAddress(address.getText().toString());
-
-											
-											CalcDistanceAfterDragAsync calcDistanceAfterDragAsync = new CalcDistanceAfterDragAsync(getItinerary(), MainPage.this, cl);
-											calcDistanceAfterDragAsync.execute();
-											
-											try {
-												calcDistanceAfterDragAsync.get();
-											} catch (InterruptedException e) {
-												e.printStackTrace();
-											} catch (ExecutionException e) {
-												e.printStackTrace();
-											}
-											
-								    		updateMap();
-								    		updateList();
+											//((MainPage)c).fragmap.generateMarkers();
 										}
 										else{
 											Toast toast = Toast.makeText(MainPage.this, "Address not found", Toast.LENGTH_LONG);
 											toast.show();
 										}
 									}catch(Exception e){
-										Log.i("Exception in Geocoder",e.getMessage());
+										//Log.i("Exception in Geocoder",e.getMessage());
 									}
 
 
 								}
+
+//								CheckBox cb = (CheckBox) d.findViewById(R.id.endAtStart);
+//								if(cb.isChecked()==true){
+//									//editor.putString("endAtStart","true");
+//								}
+//								else{
+//									//editor.putString("endAtStart","false");
+//								}
+								//editor.commit();
+
 							}
 
 
