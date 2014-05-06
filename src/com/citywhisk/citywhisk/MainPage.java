@@ -1,3 +1,19 @@
+/*
+ * Copyright 2014 CityWhisk
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
 package com.citywhisk.citywhisk;
 
 import java.io.BufferedReader;
@@ -368,46 +384,6 @@ public class MainPage extends BaseActionBar{
 			shareIntent.putExtra(Intent.EXTRA_TEXT, "This is my text to send.");
 			shareIntent.setType("text/plain");
 			mShareActionProvider.setShareIntent(createShareIntent());*/
-			
-		/*case R.id.actionbar5:
-			
-			final AlertDialog.Builder builder = new AlertDialog.Builder(this);
-			builder.setTitle(R.string.nameItin);
-			LayoutInflater inflater = getLayoutInflater();;
-			builder.setView(inflater.inflate(R.layout.nameitinerary, null));
-			
-			builder.setPositiveButton(R.string.save, new DialogInterface.OnClickListener(){
-
-				@Override
-				public void onClick(DialogInterface di, int arg1) {
-					Dialog dialog = (Dialog) di;
-					Editable name = ((EditText) dialog.findViewById(R.id.nameItineraryField)).getText();
-					if( name.toString().matches("")) {
-						Toast.makeText(builder.getContext(), "Please name this itinerary.", Toast.LENGTH_SHORT).show();
-					}
-					else{
-						
-						favList.add(name.toString());
-						itinerary.setItinName(name.toString());
-						savedItineraries.add(itinerary);
-						
-					}
-				}
-				
-			});
-			
-			builder.setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener(){
-
-				@Override
-				public void onClick(DialogInterface arg0, int arg1) {
-					// Nothing to do
-				}
-				
-			});
-			
-			builder.create().show();
-			
-			return true;*/
 
 		/*case R.id.actionbar6:
 			startActivity(new Intent(this, SettingsClass.class));
